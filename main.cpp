@@ -1,11 +1,11 @@
 #include <iostream>
 #include "stack.h"
-#include "queue.h"
+#include "stack.cpp"
 using namespace std;
 
 int main()
 {
-	stack a;
+	stack<char> a;
 	cout<< "Push a b in a stack"<<endl;
 	a.push('a');
 	a.push('b');
@@ -19,7 +19,7 @@ int main()
 	cout<<"The stack contain:";
 	a.Stack_Printer();
 
-	queue b;
+/*	queue b;
 	cout<<"push a b in a queue"<<endl;
 	b.push('a');
 	b.push('b');
@@ -30,6 +30,6 @@ int main()
 	b.pop();
 
 	cout<< "The queue contain:";
-	b.Stack_Printer();
+	b.Stack_Printer();*/
 	return 0;
 }
